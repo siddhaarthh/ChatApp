@@ -8,7 +8,7 @@ import { Chat, Message } from './types';
 const initialChats: Chat[] = [
   {
     id: '1',
-    name: 'John Doe',
+    name: 'Siddharth',
     lastMessage: 'Hey, how are you?',
     timestamp: new Date(2024, 2, 10, 14, 30),
     unread: 2,
@@ -17,7 +17,7 @@ const initialChats: Chat[] = [
   },
   {
     id: '2',
-    name: 'Jane Smith',
+    name: 'Sejal',
     lastMessage: 'See you tomorrow!',
     timestamp: new Date(2024, 2, 10, 13, 45),
     unread: 0,
@@ -26,7 +26,7 @@ const initialChats: Chat[] = [
   },
   {
     id: '3',
-    name: 'Mike Johnson',
+    name: 'Ram',
     lastMessage: 'The meeting is scheduled for 3 PM',
     timestamp: new Date(2024, 2, 10, 12, 15),
     unread: 1,
@@ -111,7 +111,7 @@ function App() {
         />
       </div>
       <footer className="bg-gray-100 dark:bg-gray-800 text-center py-2 text-sm text-gray-600 dark:text-gray-400">
-        © 2024 Chat App. All rights reserved.
+        © 2025 Chat Application. All rights reserved.
       </footer>
     </div>
   );
